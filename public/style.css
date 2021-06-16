@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+*:not(:root, body){
+  overflow: visible;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+:root{
+  font-size: 10px;
+}
+body{
+ font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'HK Grotesk', 'Poppins', -apple-system, "Helvetica Neue";
+}
+main {
+    max-width: 70vw;
+    margin: 50px auto;
+}
+article + article {
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: solid 2px rgba(255, 255, 255, 0.253);
+}
+h1,h2{
+    font-family: 'Fira code';
+    font-size: 30px;
+    margin: 0;
+}
+p{
+  font-size: 18px;
+  font-family: 'HK Grotesk';
+}
+.btn {
+    color: #fff;
+    background-color: #0c6bff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    top: 15px;
+    position: relative;
+}
